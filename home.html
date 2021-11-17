@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <a href="Mix-Or-Match-master\Assets\Audio\creepy.mp3" target="_blank">Play Music</a> <!-- opens in a new full-size tab/window -->
+    <!-- <a href="javascript:open_window('Mix-Or-Match-master\Assets\Audio\creepy.mp3')">Play Music!</a>	opens in a small window -->
+   
+    <!-- <audio preload="auto" src="Mix-Or-Match-master/Assets/Audio/creepy.mp3" loop="true" autobuffer>
+        Unsupported in Firefox
+        </audio> -->
+
+    <p class="line1">Welcome</p>
+    <p class="line2">to the most horror games ever</p>
+    <button id="myButton" type="button" class="btn btn-outline-danger">Enter</button>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+        location.href = "games .html"
+        };
+    </script>
+</html>

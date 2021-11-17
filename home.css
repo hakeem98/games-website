@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: Press Start 2P;
+    src: url(fonts\PressStart2P-Regular.ttf);
+}
+
+body{
+    background-color: black;
+}
+.line1{
+    font-family: 'Press Start 2P', cursive;
+    animation-name: line1;
+    animation-duration:  3.5s;
+    animation-direction: alternate;
+    position:fixed;
+    left: 600px;
+    top: 200px;
+    color: red;
+    font-size: 60px;
+    border: solid 2px red;
+    padding: 20px;
+}
+@keyframes line1{
+    0%   { left:600px; top:-100px;}
+    
+    100% { left:600px; top:200px;}
+}
+.line1:hover{
+    /* color:white; */
+    box-shadow: 5px 5px 20px 5px red,
+                 -5px -5px 20px 5px red;
+}
+.line2{
+    font-family: 'Press Start 2P', cursive;
+    animation-name: line2;
+    animation-duration:  3.5s;
+    animation-direction: alternate;
+    position: relative;
+    left: 525px;
+    top: 450px;
+    color: red;
+    font-size: 20px;
+}
+@keyframes line2{
+    0%   { left:525px; top:700px;}
+    
+    100% { left:525px; top:450px;}
+}
+.btn{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 730px;
+    margin-top: 500px ;
+    color: red;
+    font-size: 30px;
+    animation-name: btn;
+    animation-duration: 8s;
+    /* animation-delay: 2.7s; */
+}
+@keyframes btn{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    
+   100%{
+       opacity: 1;
+   }
+}
+.btn:hover{
+    background-color: red;
+}
